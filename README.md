@@ -24,7 +24,7 @@ drone发送email的插件说明文档： http://plugins.drone.io/drillster/drone
         {{ repo.owner }}/{{ repo.name }}
         ({{ build.branch }} - {{ truncate build.commit 8 }})
       body:
-        http://qvvtaxa26.hn-bkt.clouddn.com/defaults.html   #中文模板,使用了七牛云托管，国内用户建议使用
+        http://qvvtaxa26.hn-bkt.clouddn.com/defaults-CN.html   #中文模板,使用了七牛云托管，国内用户建议使用
     when: 
       status: [success,changed,failure]
  
